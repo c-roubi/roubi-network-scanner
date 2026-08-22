@@ -29,9 +29,9 @@ dev = ["pytest>=7", "ruff>=0.4", "mypy>=1.8"]
 roubi = "roubi.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/c-roubi/roubi"
-Repository = "https://github.com/c-roubi/roubi"
-Issues = "https://github.com/c-roubi/roubi/issues"
+Homepage = "https://github.com/c-roubi/roubi-network-scanner"
+Repository = "https://github.com/c-roubi/roubi-network-scanner"
+Issues = "https://github.com/c-roubi/roubi-network-scanner/issues"
 
 [tool.hatch.version]
 path = "src/roubi/_version.py"
