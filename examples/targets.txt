@@ -1,0 +1,6 @@
+# Roubi target list
+# One entry per line. Blank lines and lines starting with '#' are ignored.
+# Hostnames, IP addresses, and CIDR networks are all accepted.
+127.0.0.1
+localhost
+# 192.0.2.0/28
