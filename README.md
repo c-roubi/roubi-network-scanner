@@ -1,4 +1,4 @@
-# Roubi
+# Roubi Network Scanner
 
 A dependency-free TCP network scanner with structured reporting, written in
 Python. Roubi scans single hosts, comma-separated lists, CIDR networks, or a
@@ -24,8 +24,8 @@ that is easy to read, embed, and extend.
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/roubi.git
-cd roubi
+git clone https://github.com/c-roubi/roubi-network-scanner.git
+cd roubi-network-scanner
 python -m pip install .
 ```
 
@@ -126,7 +126,7 @@ write_html(result, "report.html")
 ## Project layout
 
 ```
-roubi/
+roubi-network-scanner/
 ├── src/roubi/
 │   ├── engine.py          scanning engine and result model
 │   ├── targets.py         target specification parsing
